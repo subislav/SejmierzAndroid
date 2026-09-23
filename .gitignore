@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+.gradle-user-home/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Build output
+build/
+*/build/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Local / machine-specific
+local.properties
+*.log
+.gradle-build.log
+.local-m2/
+
+# IDE
+.idea/
+.kotlin/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Signing / secrets
+*.keystore
+!debug.keystore
+*.jks
+*.pem
+
+# Exported benchmark datasets (keep out of VCS by default)
+/benchmark-exports
